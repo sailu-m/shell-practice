@@ -2,7 +2,7 @@
 
 ### special variables ###
 
-echo "All args passed to script $@"
+echo "All args passed to script: $@"
 echo "Number variables passed to script: $#"
 echo "Script name: $0"
 echo "Present directory: $PWD"
