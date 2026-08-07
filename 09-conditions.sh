@@ -5,7 +5,7 @@
 # -eq -> equal
 # -ne -> not equal 
 
-NUMBER=$1
+NUMBER=20
 
 
 if [$NUMEBER -gt 20]; then
