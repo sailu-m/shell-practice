@@ -4,9 +4,13 @@
 # -lt -> less than
 # -eq -> equal
 # -ne -> not equal 
+
+NUMBER=$1
+
+
 if [$NUMEBER -gt 20]; then
-    echo "Given number: $NUMBER is greater than 20"
-elif [$NUMEBER -eq 20]; then
+    echo "Given number:: $NUMBER is greater than 20"
+if [$NUMEBER -eq 20]; then
     echo "Given number: $NUMBER is equal to 20"
 else
     echo "Given number: $NUMBER is less than 20"
